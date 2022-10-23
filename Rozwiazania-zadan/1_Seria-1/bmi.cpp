@@ -1,6 +1,6 @@
 /********************************************************************
- * Programowanie i metody numeryczne
- * Zadania - seria I.
+ * Programowanie II R
+ * Zadania - seria 1.
  * Zadanie 1.
 ********************************************************************/
 
@@ -8,15 +8,15 @@
 
 int main()
 {
-   double m, h;
-   
+   float m;
    std::cout << "Podaj masę ciała (w kilogramach): ";
    std::cin >> m;
    
+   float h;
    std::cout << "Podaj wzrost (w metrach): ";
    std::cin >> h;
    
-   double bmi = m / (h * h);
+   float bmi = m / (h * h);
    
    std::cout << "BMI = " << bmi << std::endl;
    

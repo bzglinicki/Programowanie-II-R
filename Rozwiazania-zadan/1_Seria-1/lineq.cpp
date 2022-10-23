@@ -8,17 +8,18 @@
 
 int main()
 {
-   double a, b;
-   
    std::cout << "ax + b = 0" << std::endl;
    
+   double a;
    std::cout << "   a = ";
    std::cin >> a;
    
+   double b;
    std::cout << "   b = ";
    std::cin >> b;
    
-   std::cout << std::endl;   // Wypisujemy na wyjście pustą linię.
+   // Wypisujemy na wyjście pustą linię.
+   std::cout << std::endl;
    
    double x = -b / a;
    
