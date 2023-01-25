@@ -1,7 +1,7 @@
 /**
  * Programowanie II R
  *
- * Programowanie współbieżne - przykład 2.
+ * Programowanie współbieżne - przykład 1.
  *
  *
  * Opracowano na podstawie:
